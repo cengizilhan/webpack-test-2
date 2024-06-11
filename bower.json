@@ -1,0 +1,57 @@
+{
+    "name": "sst",
+    "description": "dd",
+    "main": "index.js",
+    "authors": [
+      "sst"
+    ],
+    "license": "MIT",
+    "keywords": [
+      "sst"
+    ],
+    "homepage": "",
+    "private": true,
+    "ignore": [
+      "**/.*",
+      "node_modules",
+      "bower_components",
+      "test",
+      "tests"
+    ],
+    "dependencies": {
+      "react": "^15.5.0",
+      "bootstrap": "4.0.0-alpha.2",
+      "bootstrap_legacy": "bootstrap#3.3.7",
+      "typeahead.js": "typehead.js#^0.11.1",
+      "jquery.cookie": "^1.4.1",
+      "lazyloadxt": "^1.0.5",
+      "swiper": "^3.4.1",
+      "jquery.bxslider": "*",
+      "jquery.jscrollpane": "^2.0.14",
+      "mobile-detect": "^1.3.5",
+      "jquery-mousewheel": "^3.1.13",
+      "jquery": "^3.1.1",
+      "jquery_legacy": "jquery#1.12.4",
+      "jquery.migrate": "^1.2.1",
+      "simplePagination.js": "jquery.simplePagination#*",
+      "ie-classlist": "^1.1.20150312",
+      "jquery-ui": "^1.12.1",
+      "holderjs": "holder.js#^2.9.4",
+      "jquery-typeahead": "^2.8.0",
+      "modernizr": "^3.3.1",
+      "underscore": "^1.8.3",
+      "jquery_lazyload": "jquery.lazyload#^1.9.7",
+      "paging": "^1.2.0",
+      "jquery-md5": "*",
+      "bootstrap-sass": "^3.3.7",
+      "font-awesome": "^4.7.0",
+      "select2": "^4.0.3",
+      "fullpage.js": "^2.9.7",
+      "intro.js": "^2.9.3"
+    },
+    "resolutions": {
+      "jquery": ">=1.7.0",
+      "bootstrap": "~4.0.0-alpha.2"
+    }
+  }
+  
