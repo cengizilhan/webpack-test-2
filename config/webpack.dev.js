@@ -1,7 +1,6 @@
 // webpack.dev.js
 const { merge } = require('webpack-merge')
 const path = require('path')
-const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const paths = require('./paths')
 const common = require('./webpack.common')
 
@@ -15,33 +14,22 @@ module.exports = merge(common, {
     compress: true,
     historyApiFallback: true,
     https: false,
-    open: true,
+    //open: true,
     hot: true,
     port: 9002,
     proxy: {
       '/api': 'http://localhost:9000'
     },
-    devMiddleware: {
-      writeToDisk: true,
+    // devMiddleware: {
+    //   writeToDisk: true,
+    // },
+    // watch changes in the files for live reload
+    // to see generated files in serv mode, open http://localhost:9002/webpack-dev-server
+    watchFiles: {
+      paths: ['Static/src/**/*.*'],
+      options: {
+        usePolling: true,
+      },
     },
   },
-  module: {
-    rules: [
-      {
-        test: /\.(scss|css)$/,
-        use: [
-          MiniCssExtractPlugin.loader,
-          'css-loader',
-          'postcss-loader',
-          'sass-loader',
-        ],
-      },
-    ],
-  },
-  plugins: [
-    new MiniCssExtractPlugin({
-      filename: '[name].css',
-      chunkFilename: '[id].css',
-    }),
-  ],
 })

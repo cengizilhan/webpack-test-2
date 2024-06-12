@@ -1,0 +1,1 @@
+(self.webpackChunkwebpack_boilerplate=self.webpackChunkwebpack_boilerplate||[]).push([[339],{575:()=>{alert("cengiz")},688:(e,a,l)=>{"use strict";l.r(a),l(575),alert("sawacrow")}},e=>{e(e.s=688)}]);

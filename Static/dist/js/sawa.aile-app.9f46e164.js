@@ -1,0 +1,1 @@
+(self.webpackChunkwebpack_boilerplate=self.webpackChunkwebpack_boilerplate||[]).push([[630],{583:()=>{console.log("test-app.js")}},e=>{e(e.s=583)}]);

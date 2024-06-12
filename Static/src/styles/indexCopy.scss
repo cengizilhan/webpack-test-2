@@ -1,4 +1,10 @@
 @font-face {
   font-family: 'Inter';
+  src:
+    local(Inter Regular),
+    url('@fonts/Inter.ttf') format('ttf');
+}
 
+body {
+  font-family: Inter;
 }
