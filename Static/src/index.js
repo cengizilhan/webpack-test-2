@@ -3,8 +3,9 @@ import { example } from '@/scripts/example'
 
 // Test import of an asset
 
-// Test import of styles
-import '@/styles/index.scss'
+// Define the main SCSS file directly in HTML
+// of cause you can impoert SCSS file in JS too
+//import '@/styles/index.scss'
 
 
 
@@ -19,4 +20,4 @@ imageBackground.classList.add('image')
 alert('Hello World')
 
 const app = document.querySelector('#root')
-app.append(logo, heading)
+app.append(heading)
